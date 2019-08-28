@@ -31,7 +31,7 @@
       "type": "String",
       "metadata": {
         "description": "Specify the resrouce group of the existing VNet"
-      },
+      }
     },
     "existingSubnetName": {
       "type": "String",
