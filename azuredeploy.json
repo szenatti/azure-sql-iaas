@@ -32,7 +32,6 @@
       "metadata": {
         "description": "Specify the resrouce group of the existing VNet"
       },
-      "defaultValue": "[resourceGroup().name]"
     },
     "existingSubnetName": {
       "type": "String",
@@ -135,8 +134,7 @@
       "type": "string",
       "metadata": {
         "description": "Location for all resources."
-      },
-      "defaultValue": "[resourceGroup().location]"
+      }
     }
   },
   "variables": {
